@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
       alert('Haz dado click a la misma imagen!')
     }
     else if (cardsChosen[0] === cardsChosen[1]) {
-      alert('You found a match')
+      alert('Encontrastes su pareja :) ')
       cards[optionOneId].setAttribute('src', 'images/white.png')
       cards[optionTwoId].setAttribute('src', 'images/white.png')
       cards[optionOneId].removeEventListener('click', flipCard)
