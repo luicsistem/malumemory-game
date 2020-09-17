@@ -99,6 +99,9 @@
     resultDisplay.textContent = cardsWon.length
     if  (cardsWon.length === cardArray.length/2) {
       resultDisplay.textContent = 'Felicitaciones ! Encontrastes todos los Malumines!'
+      setTimeout(() => {
+        location.reload();
+      }, 3000)
       
     }
   }
