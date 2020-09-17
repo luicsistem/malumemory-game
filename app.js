@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', () => {
   //card options
   const cardArray = [
       {
@@ -99,6 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
     resultDisplay.textContent = cardsWon.length
     if  (cardsWon.length === cardArray.length/2) {
       resultDisplay.textContent = 'Felicitaciones ! Encontrastes todos los Malumines!'
+      
     }
   }
 
@@ -115,3 +116,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   createBoard()
 })
+
+
+
+
+
